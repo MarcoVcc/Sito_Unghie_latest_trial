@@ -220,8 +220,8 @@
 							"name": "Ricostruzione onicofagia",
 							"price": 75,
 							"duration": "90 min",
-							"description": "La ricostruzione unghie è un trattamento estetico professionale finalizzato all'allungamento delle unghie naturali. \n\nQuesta tecnica corregge le imperfezioni, rinforza le unghie fragili e risolve l'onicofagia.",
-							"image": "Immagini/Generiche/logo.png"
+							"description": "Trattamento specifico per persone onicofagiche (persone che si mangiano le unghie). \nAiuta a rinforzare e proteggere l'unghia, favorendone la ricrescita e migliorandone progressivamente l'aspetto. \n\nIdeale per chi desidera smettere di mangiarsi le unghie e ritrovare mani curate ed eleganti.",
+              "image": "Immagini/Generiche/logo.png"
 						}
 					],
 					"fromPrice": 70
@@ -243,7 +243,7 @@
 							"name": "Riparazione 1 unghia - In fase di refill",
 							"label": "In fase di refill",
 							"price": "1,50",
-							"duration": "10 min",
+							"duration": "",
 							"description": "Riparazione di 1 unghia in fase di refill.",
 							"image": "Immagini/Generiche/logo.png"
 						}
@@ -264,7 +264,7 @@
 									"name": "Rimozione semi - Senza manicure",
 									"label": "Senza manicure",
 									"price": 8,
-									"duration": "15 min",
+									"duration": "10 min",
 									"description": "La rimozione è il processo tecnico di eliminazione dello smalto dalla lamina ungueale, effettuato tramite limatura delicata.\n\nNon comprende la manicure",
 									"image": "Immagini/Generiche/logo.png"
 								},
@@ -273,7 +273,7 @@
 									"name": "Rimozione semi - Con manicure",
 									"label": "Con manicure",
 									"price": 26,
-									"duration": "TO CHANGE",
+									"duration": "30 min",
 									"description": "La rimozione è il processo tecnico di eliminazione dello smalto dalla lamina ungueale, effettuato tramite limatura delicata.\n\nComprende la manicure.",
 									"image": "Immagini/Generiche/logo.png"
 								}
@@ -298,7 +298,7 @@
 									"name": "Rimozione gel - Con manicure",
 									"label": "Con manicure",
 									"price": 28,
-									"duration": "TO CHANGE",
+									"duration": "30 min",
 									"description": "La rimozione è il processo tecnico di eliminazione del gel dalla lamina ungueale, effettuato tramite limatura delicata.\n\nComprende la manicure.",
 									"image": "Immagini/Generiche/logo.png"
 								}
@@ -315,24 +315,24 @@
 							"type": "treatment",
 							"name": "French",
 							"price": "+4",
-							"duration": "TO CHANGE",
-							"description": "TO CHANGE",
+							"duration": "",
+							"description": "Nail art caratterizzata da una base naturale e una lunetta bianca o colorata sul bordo libero dell'unghia, creando un contrasto elegante e classico. \n\nLa french manicure è versatile, adatta a tutte le occasioni e stili, e valorizza la forma naturale dell'unghia.",
 							"image": "Immagini/Generiche/logo.png"
 						},
 						{
 							"type": "treatment",
 							"name": "Nail art",
 							"price": "da 2",
-							"duration": "TO CHANGE",
-							"description": "TO CHANGE",
+							"duration": "",
+							"description": "Nail art personalizzata con dettagli e colori vivaci. \n\nIdeale per chi desidera aggiungere un tocco di originalità e stile alle proprie unghie.",
 							"image": "Immagini/Generiche/logo.png"
 						},
 						{
 							"type": "treatment",
 							"name": "Swarovski",
 							"price": "0,50",
-							"duration": "TO CHANGE",
-							"description": "TO CHANGE",
+							"duration": "",
+							"description": "Applicazione di Swarovski, cristalli di alta qualità che donano un effetto brillante e lussuoso alle unghie. \n\nIdeale per chi desidera un tocco di glamour e raffinatezza.",
 							"image": "Immagini/Generiche/logo.png"
 						}
 					]
