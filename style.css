@@ -1207,7 +1207,7 @@ body.menu-open {
 .offer-image {
   width: 100%;
   display: block;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 4 / 5;
   object-fit: cover;
 }
 
