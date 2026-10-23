@@ -32,24 +32,43 @@ In pratica:
 
 ## `site-config.js`
 
-Serve per attivare o disattivare Umami.
+Contiene le impostazioni di Umami e dei temi stagionali.
 
 ### Struttura
 
 ```js
 window.SITE_CONFIG = {
   umamiEnabled: false,
-  umamiWebsiteId: "d5955fa0-bba7-43d1-929b-6f62bb11d097"
+  umamiWebsiteId: "d5955fa0-bba7-43d1-929b-6f62bb11d097",
+  theme: {
+    mode: "auto",
+    selectedTheme: "halloween",
+    schedule: [
+      { theme: "halloween", start: "10-15", end: "11-02" }
+    ]
+  }
 };
 ```
 
 ### Come usarlo
 
-1. In locale o durante le prove: lascia `umamiEnabled: false`
-2. Prima del push sul sito ufficiale: imposta `umamiEnabled: true`
+1. In locale e sul sito di prova: lascia `umamiEnabled: false`
+2. Dopo il push di produzione, imposta `umamiEnabled: true` direttamente nel repository `Listino_Prezzi` su GitHub
 3. Se non vuoi tracciare nulla: lascia sempre `false`
 
 Con `false`, Umami non viene caricato e non sporca le statistiche.
+
+## Temi stagionali
+
+La configurazione `theme` seleziona lo stile su entrambe le pagine (`home.html` e `index.html`).
+
+- `mode: "auto"`: attiva il tema in base alle date in `schedule`; fuori da tutti gli intervalli usa lo stile normale.
+- `mode: "manual"`: usa sempre il valore di `selectedTheme`, utile per provare un tema fuori stagione.
+- `mode: "off"`: disattiva i temi stagionali e usa lo stile normale.
+
+Le date sono annuali nel formato `MM-DD`, estremi inclusi. Per aggiungere un periodo, aggiungi una voce a `schedule`; la prima voce che corrisponde ha la precedenza. Per aggiungere un nuovo tema, registra il suo nome e il colore della barra del browser in `theme.js`, poi definisci la palette in `style.css`.
+
+Per provare subito Halloween in qualsiasi data, usa `mode: "manual"` e `selectedTheme: "halloween"`. Per tornare automaticamente alle date, rimetti `mode: "auto"`.
 
 ## Regole generali
 
