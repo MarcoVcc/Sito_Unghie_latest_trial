@@ -11,9 +11,9 @@ window.SITE_CONFIG = {
     selectedTheme: "halloween",
     // Date annuali nel formato MM-DD; la data finale è inclusa.
     schedule: [
-      { theme: "halloween", start: "10-15", end: "11-05" },
-      { theme: "newyear", start: "12-31", end: "01-01" },
-      { theme: "christmas", start: "12-10", end: "12-30" }
+      { theme: "halloween", start: "10-01", end: "11-15" },
+      { theme: "newyear", start: "12-31", end: "01-05" },
+      { theme: "christmas", start: "12-01", end: "12-30" }
     ]
   }
 };
