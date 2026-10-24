@@ -6,10 +6,14 @@ window.SITE_CONFIG = {
   theme: {
     // "auto" segue le date, "manual" usa selectedTheme, "off" usa il tema normale.
     mode: "auto",
+    // Pulsante per provare i temi in sviluppo; impostare false prima del push production.
+    showThemePreviewButton: true,
     selectedTheme: "halloween",
     // Date annuali nel formato MM-DD; la data finale è inclusa.
     schedule: [
-      { theme: "halloween", start: "10-15", end: "11-02" }
+      { theme: "halloween", start: "10-15", end: "11-05" },
+      { theme: "newyear", start: "12-31", end: "01-01" },
+      { theme: "christmas", start: "12-10", end: "12-30" }
     ]
   }
 };

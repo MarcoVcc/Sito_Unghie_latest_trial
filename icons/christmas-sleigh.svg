@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 630 200" fill="none">
+  <defs>
+    <g id="reindeer">
+      <path d="M18 92c8-16 23-24 43-21 15 2 27 10 31 23-6 12-19 18-39 18-19 0-31-7-35-20Z" fill="#593a2c" stroke="#2b211d" stroke-width="3"/>
+      <path d="M66 88c8-8 11-19 13-32l14-11 13 5 10 12-12 9-13-2-11 30" fill="#684632" stroke="#2b211d" stroke-width="3" stroke-linejoin="round"/>
+      <path d="m98 47 2-15 9 10m-2-11 9-13m-9 13 11 1m-18-3-7-13m7 13-11 2" stroke="#684632" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="m35 105-3 29m14-25 2 27m28-30 5 27m-31-1 10 1" stroke="#2b211d" stroke-width="5" stroke-linecap="round"/>
+      <path d="m19 87-11-7 2 12" stroke="#593a2c" stroke-width="4" stroke-linecap="round"/>
+      <path d="m102 58 7 3-7 3" fill="#efe0c2"/>
+      <circle cx="105" cy="56" r="2.5" fill="#fff4dc"/>
+      <circle cx="111" cy="61" r="3" fill="#d83c3d"/>
+      <path d="M8 78c-5 4-7 8-7 13" stroke="#d9b66c" stroke-width="2" stroke-linecap="round"/>
+    </g>
+  </defs>
+
+  <g stroke="#d2af62" stroke-width="2" opacity=".9">
+    <path d="M104 91h50m-50 9h50M199 84h53m-53 10h53M294 98h58"/>
+  </g>
+  <g>
+    <use href="#reindeer" x="0" y="0"/>
+    <use href="#reindeer" transform="translate(96 -9) scale(.91)"/>
+    <use href="#reindeer" transform="translate(190 4) scale(.83)"/>
+  </g>
+
+  <g transform="translate(360 31)">
+    <path d="M30 114c31 18 87 20 132 2 14-6 23-17 25-29-17 14-31 16-48 15H38" stroke="#d9b66c" stroke-width="7" stroke-linecap="round"/>
+    <path d="M42 76h105c21 0 34 12 37 28l-11 17H59c-17 0-28-12-28-27 0-8 4-14 11-18Z" fill="#b92f39" stroke="#70242b" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M52 73c12-20 30-31 56-31h31c15 0 25 7 29 19l-5 17H48" fill="#d84243" stroke="#70242b" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M56 70c6-16 20-24 36-25l-2 27m45-27 9 25" stroke="#f2dba1" stroke-width="4" stroke-linecap="round"/>
+    <path d="M71 41c5-13 16-21 32-23 14-2 28 3 35 14l-9 13H97" fill="#f1d6aa" stroke="#6b3027" stroke-width="3"/>
+    <circle cx="116" cy="20" r="16" fill="#e0b38a" stroke="#6b3027" stroke-width="3"/>
+    <path d="M98 18c3-15 16-22 29-18 10 3 16 10 15 19l-16-4-8 8-20-5Z" fill="#bd3039" stroke="#70242b" stroke-width="3" stroke-linejoin="round"/>
+    <circle cx="141" cy="16" r="6" fill="#fff3dc"/>
+    <path d="M51 121h129" stroke="#f1d6aa" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="43" cy="94" r="4" fill="#f4d58d"/><circle cx="158" cy="92" r="4" fill="#f4d58d"/>
+  </g>
+
+  <g fill="#fff1cc" opacity=".9">
+    <path d="m307 31 4 10 10 4-10 4-4 10-4-10-10-4 10-4 4-10Z"/>
+    <path d="m550 40 3 7 8 3-8 3-3 8-3-8-8-3 8-3 3-7Z"/>
+    <circle cx="327" cy="145" r="3"/><circle cx="580" cy="86" r="3"/><circle cx="278" cy="49" r="2.5"/>
+  </g>
+</svg>

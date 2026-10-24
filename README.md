@@ -42,9 +42,12 @@ window.SITE_CONFIG = {
   umamiWebsiteId: "d5955fa0-bba7-43d1-929b-6f62bb11d097",
   theme: {
     mode: "auto",
+    showThemePreviewButton: true,
     selectedTheme: "halloween",
     schedule: [
-      { theme: "halloween", start: "10-15", end: "11-02" }
+      { theme: "halloween", start: "10-15", end: "11-05" },
+      { theme: "newyear", start: "12-31", end: "01-01" },
+      { theme: "christmas", start: "12-10", end: "12-30" }
     ]
   }
 };
@@ -65,10 +68,13 @@ La configurazione `theme` seleziona lo stile su entrambe le pagine (`home.html` 
 - `mode: "auto"`: attiva il tema in base alle date in `schedule`; fuori da tutti gli intervalli usa lo stile normale.
 - `mode: "manual"`: usa sempre il valore di `selectedTheme`, utile per provare un tema fuori stagione.
 - `mode: "off"`: disattiva i temi stagionali e usa lo stile normale.
+- `showThemePreviewButton: true`: mostra il pulsante di anteprima per provare i temi in locale.
 
 Le date sono annuali nel formato `MM-DD`, estremi inclusi. Per aggiungere un periodo, aggiungi una voce a `schedule`; la prima voce che corrisponde ha la precedenza. Per aggiungere un nuovo tema, registra il suo nome e il colore della barra del browser in `theme.js`, poi definisci la palette in `style.css`.
 
-Per provare subito Halloween in qualsiasi data, usa `mode: "manual"` e `selectedTheme: "halloween"`. Per tornare automaticamente alle date, rimetti `mode: "auto"`.
+Il pulsante di anteprima passa tra configurazione corrente, tema normale, Halloween, Natale e Capodanno. Prima di caricare la versione su `production`, imposta `showThemePreviewButton: false` in `site-config.js`; il pulsante sparisce e gli eventuali parametri di anteprima nell'URL vengono ignorati.
+
+Con le date impostate in `site-config.js`, Halloween va dal 15 ottobre al 5 novembre, Natale dal 10 al 30 dicembre e Capodanno dal 31 dicembre al 1 gennaio. Se gli intervalli si sovrappongono, ha la precedenza la prima voce di `schedule`. Per provare un tema fuori stagione, usa `mode: "manual"` e scegli `selectedTheme: "halloween"`, `selectedTheme: "christmas"` oppure `selectedTheme: "newyear"`. Per tornare alle date, rimetti `mode: "auto"`.
 
 ## Regole generali
 
